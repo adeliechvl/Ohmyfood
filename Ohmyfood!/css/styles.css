@@ -1,0 +1,44 @@
+/* VERSION MOBILE*/
+
+@media screen and (max-width: 375px){
+
+/* ELEMENTS DE LA PAGE */
+
+body {
+    width: 375px;
+    margin: 0;
+}
+
+body img {
+    width:100%;
+    object-fit: cover;
+    
+}
+/* HEADER */
+
+header {
+    width: 100%;
+    
+}
+
+header img {
+    margin-top: 30px;
+    width: 200px;
+    justify-content: center;
+}
+
+/* SECTION RESERVER */
+
+.localisation {
+    display: flex;
+    background-color: #dfdfdf;
+    align-content: baseline;
+}
+
+.réserver {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    align-content: center;
+}
+}
