@@ -1,258 +1,300 @@
 /* VERSION MOBILE*/
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
 
-/* ELEMENTS DE LA PAGE */
+    /* ELEMENTS DE LA PAGE */
 
-body {
-    width: 375px;
-    margin: 0;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
+    body {
+        width: 375px;
+        margin: 0;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
 
-body img {
-    width:100%;
-    object-fit: cover;
-}
+    body img {
+        width: 100%;
+        object-fit: cover;
+    }
 
-body h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+    body h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
-/* HEADER */
+    /* HEADER */
 
-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    
-}
+    header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
 
-header img {
-    margin-top: 30px;
-    width: 170px;
-    margin-bottom: 10px;
-    
-}
+    }
 
-/* SECTION LOCALISATION */
+    header img {
+        margin-top: 30px;
+        width: 170px;
+        margin-bottom: 10px;
 
-.localisation div {
-    display: flex;
-    background-color: #dfdfdf;
-    align-items: baseline;
-    width: 100%;
-    justify-content: center;
-    box-shadow: inset 0 3px 3px 0 rgb(180, 179, 179);
-}
+    }
 
-.localisation div i {
-    margin-right: 3%;
-}
-.localisation div p {
-    font-weight: 900;
-}
-/* SECTION RESERVER */
+    /* SECTION LOCALISATION */
 
-.réserver {
-    display: flex;
-    flex-direction: column;
-    background-color: #f0f0f0;
-    padding: 10%;
-    align-items: center;
-    justify-content: center;
-}
+    .localisation div {
+        display: flex;
+        background-color: #dfdfdf;
+        align-items: baseline;
+        width: 100%;
+        justify-content: center;
+        box-shadow: inset 0 3px 3px 0 rgb(180, 179, 179);
+    }
 
-.titres_réserver {
-    text-align: center;
-    margin-bottom: 15px;
-}
+    .localisation div i {
+        margin-right: 3%;
+    }
 
-.btn_explore {
-    border-radius: 50px;
-    background-image: linear-gradient(#FF79DA, #9356DC) ;
-    padding-left: 7%;
-    padding-right: 7%;
-    margin-bottom: 10px;
-    color: white;
-    font-weight: 100;
-    box-shadow: 0 2px 15px 2px rgb(180, 179, 179);
-}
+    .localisation div p {
+        font-weight: 900;
+    }
 
-.btn_explore p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: 300;
-}
+    /* SECTION RESERVER */
 
-/* SECTION FONCTIONNEMENT */
+    .réserver {
+        display: flex;
+        flex-direction: column;
+        background-color: #f0f0f0;
+        padding: 10%;
+        align-items: center;
+        justify-content: center;
+    }
 
-.fonctionnement {
-    margin: 50px 5% 70px 7%;
-    height: 300px;
-}
+    .titres_réserver {
+        text-align: center;
+        margin-bottom: 15px;
+    }
 
-.choose, .compose, .taste {
-    display: flex;
-    align-items: baseline;
-    background-color: #f0f0f0;
-    border-radius: 20px;
-    box-shadow: 0 8px 8px 0 rgb(221, 220, 220);
-    margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.choose i, .compose i, .taste i {
-    color: rgb(139, 139, 139);
-    font-size: 20px;
-}
+    .btn_explore {
+        border-radius: 50px;
+        background-image: linear-gradient(#FF79DA, #9356DC);
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 100;
+        box-shadow: 0 2px 15px 2px rgb(180, 179, 179);
+    }
 
-.choose h3, .compose h3, .taste h3 {
-    padding: 0 20px 0 20px;
-    font-size: medium;
-}
+    .btn_explore p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
 
-.fonctionnement p {
-    padding: 5px 10px 5px 10px;
-    background-color: #9356DC;
-    color: white;
-    border-radius: 15px;
-    position: relative;
-    right: 15px;
-}
+    /* SECTION FONCTIONNEMENT */
 
-/* SECTION RESTAURANTS */
+    .fonctionnement {
+        margin: 50px 5% 70px 7%;
+        height: 300px;
+    }
 
-.restaurants {
-    height: 1230px;
-    background-color: #f0f0f0;
-    margin-top: 50px;
-}
+    .choose,
+    .compose,
+    .taste {
+        display: flex;
+        align-items: baseline;
+        background-color: #f0f0f0;
+        border-radius: 20px;
+        box-shadow: 0 8px 8px 0 rgb(221, 220, 220);
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 
-.restaurants h2 {
-    margin: 0 5% 0 5%;
-    padding: 50px 0 20px 0;
-}
+    .choose i,
+    .compose i,
+    .taste i {
+        color: rgb(139, 139, 139);
+        font-size: 20px;
+    }
 
-.card_restaurant {
-    height: 250px;
-    margin: 0 5% 20px 5%;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 8px 8px 0 rgb(221, 220, 220);
-}
+    .choose h3,
+    .compose h3,
+    .taste h3 {
+        padding: 0 20px 0 20px;
+        font-size: medium;
+    }
 
-.card_restaurant img {
-    height: 170px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
+    .fonctionnement p {
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        color: white;
+        border-radius: 15px;
+        position: relative;
+        right: 15px;
+    }
 
-.btn_nouveau {
-    display: flex;
-    justify-content: center;
-    width: 80px;
-    padding: 7px 3px 7px 3px;
-    background-color: #99E2D0;
-    border-radius: 3px;
-    position: relative;
-    bottom: 160px;
-    left: 70%;
-}
+    /* SECTION RESTAURANTS */
 
-.btn_nouveau p {
-    margin: 0;
-    font-size: small;
-    font-weight: 600;
-    color: #098633;
-}
+    .restaurants {
+        height: 1230px;
+        background-color: #f0f0f0;
+        margin-top: 50px;
+    }
 
-.com_card_restaurant {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: 20px;
-}
+    .restaurants h2 {
+        margin: 0 5% 0 5%;
+        padding: 50px 0 20px 0;
+    }
 
-.titres_restaurant {
-    width: 50%;
-}
+    .card_restaurant {
+        height: 250px;
+        margin: 0 5% 20px 5%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 8px 8px 0 rgb(221, 220, 220);
+    }
 
-.titres_restaurant h3, .titres_restaurant h4 {
-    margin: 0;
-    padding: 0 0 10px 8%;
-}
+    .card_restaurant img {
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
 
-.titres_restaurant h3 {
-    font-weight: 700;
-}
+    .btn_nouveau {
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        padding: 7px 3px 7px 3px;
+        background-color: #99E2D0;
+        border-radius: 3px;
+        position: relative;
+        bottom: 160px;
+        left: 70%;
+    }
 
-.titres_restaurant h4 {
-    font-weight: 300;
-}
+    .btn_nouveau p {
+        margin: 0;
+        font-size: small;
+        font-weight: 600;
+        color: #098633;
+    }
 
-.fa-regular.fa-heart {
-    font-size: 25px;
-    color:rgb(139, 139, 139);
-    padding: 5px 20px 0 0;
-    position: relative;
-    left:38px;
-    top: 10px;
-}
-.fa-solid.fa-heart {
-    font-size: 25px;
-    color:rgb(139, 139, 139);
-    padding: 5px 20px 0 0;
-    position: relative;
-    right: 10px;
-    top: 10px;
-    visibility: hidden;
-}
-.fa-regular.fa-heart:active {
-    visibility: hidden ;
-}
+    .com_card_restaurant {
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 20px;
+    }
 
-/* FOOTER */
+    .titres_restaurant {
+        width: 50%;
+    }
 
-footer {
-    height: 200px;
-    background-color: rgb(56 56 56);
-}
+    .titres_restaurant h3,
+    .titres_restaurant h4 {
+        margin: 0;
+        padding: 0 0 10px 8%;
+    }
 
-footer h2 {
-    font-family: "Shrikhand", Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight:100;
-    width: 160px;
-    color: white;
-    margin: 0;
-    padding: 20px 0 5px 5%;
-}
+    .titres_restaurant h3 {
+        font-weight: 700;
+    }
 
-.suggest, .partnership {
-    display: flex;
-    align-items: baseline;
-    color: white;
-    padding: 10px 0 0 5%;
-}
+    .titres_restaurant h4 {
+        font-weight: 300;
+    }
 
-.suggest h3, .partnership h3{
-    margin: 0;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight:500;
-}
-footer p {
-    color: white;
-    margin: 0;
-    padding: 10px 0 0 5%;
-}
+    .icon_restaurant{
+        width: 70px;
+    }
 
-footer i {
-    width: 15px;
-    font-size: 10px;
-}
+    div>.fa-regular.fa-heart, .fa-solid.fa-heart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .fa-regular.fa-heart {
+        font-size: 25px;
+        color: rgb(139, 139, 139);
+        margin: 5px;
+    }
+
+    .fa-solid.fa-heart {
+        font-size: 25px;
+        opacity: 0;
+        background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        bottom: 55px;
+    }
+
+    input {
+        position: relative;
+        left: 20px;
+        top: 10px;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    input:checked~.fa-regular.fa-heart {
+        transition-duration: 0.5s;
+        opacity: 0;
+    }
+
+    input:checked~.fa-solid.fa-heart {
+        transition-duration: 0, 5s;
+        opacity: 1;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 200px;
+        background-color: rgb(56 56 56);
+    }
+
+    footer h2 {
+        font-family: "Shrikhand", Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        width: 160px;
+        color: white;
+        margin: 0;
+        padding: 20px 0 5px 5%;
+    }
+
+    .suggest,
+    .partnership {
+        display: flex;
+        align-items: baseline;
+        color: white;
+        padding: 10px 0 0 5%;
+    }
+
+    .suggest h3,
+    .partnership h3 {
+        margin: 0;
+        padding-left: 10px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    footer p {
+        color: white;
+        margin: 0;
+        padding: 10px 0 0 5%;
+    }
+
+    footer i {
+        width: 15px;
+        font-size: 10px;
+    }
 }
