@@ -32,14 +32,23 @@
         display: flex;
         justify-content: center;
         width: 100%;
-
+        
     }
 
     header img {
-        margin-top: 30px;
+        margin-top: 20px;
         width: 170px;
         margin-bottom: 10px;
 
+    }
+
+    header i {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        right: 20%;
+        top: 5px;
     }
 
     /* SECTION LOCALISATION */
@@ -321,5 +330,102 @@
     footer i {
         width: 15px;
         font-size: 10px;
+    }
+
+    /* PAGES RESTAURANTS */
+
+    .menu {
+        height: 1000px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        background-color: #f0f0f0;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .titre_menu {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .titre_menu h1 {
+        font-family: 'Shrikhand';
+        font-size: 26px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .entrées h2, .plats h2, .desserts h2 {
+        width: 40px;
+        font-size: medium;
+        font-weight:100;
+        margin: 30px 5% 10px 5%;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #99E2D0;
+    }
+
+    .card_plat{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 3% 10px 3%;
+        padding: 5px 3% 5px 3%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 8px 8px 0 rgb(221, 220, 220);
+    }
+
+    .card_plat h3, .card_plat h4 {
+        margin: 5px 0 5px 0;
+    }
+
+    .card_plat h3 {
+        font-size: 17px;
+    }
+    
+    .card_plat h4 {
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .card_plat_com {
+        margin-right: 5%;
+    }
+    
+    .prix {
+        position: relative;
+        top: 32px;
+        font-weight: 800;
+        font-size: small;
+    }
+    
+    .prix p {
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    .commander {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f0f0;
+    }
+    .btn_commander {
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        background-image: linear-gradient(#FF79DA, #9356DC);
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: white;
+        font-weight: 100;
+        box-shadow: 0 2px 15px 2px rgb(180, 179, 179);
+    }
+
+    .btn_commander p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-weight: 300;
     }
 }
