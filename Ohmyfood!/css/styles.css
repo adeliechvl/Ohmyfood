@@ -53,7 +53,7 @@
 
     /* SECTION LOCALISATION */
 
-    .localisation div {
+    #localisation div {
         display: flex;
         background-color: #dfdfdf;
         align-items: baseline;
@@ -62,11 +62,11 @@
         box-shadow: inset 0 3px 3px 0 rgb(180, 179, 179);
     }
 
-    .localisation div i {
+    #localisation div i {
         margin-right: 3%;
     }
 
-    .localisation div p {
+    #localisation div p {
         font-weight: 900;
     }
 
@@ -105,7 +105,7 @@
 
     /* SECTION FONCTIONNEMENT */
 
-    .fonctionnement {
+    #fonctionnement {
         margin: 50px 5% 70px 7%;
         height: 300px;
     }
@@ -150,7 +150,7 @@
         font-size: medium;
     }
 
-    .fonctionnement p {
+    #fonctionnement p {
         padding: 5px 10px 5px 10px;
         background-color: #9356DC;
         color: white;
@@ -161,13 +161,13 @@
 
     /* SECTION RESTAURANTS */
 
-    .restaurants {
+    #restaurants {
         height: 1230px;
         background-color: #f0f0f0;
         margin-top: 50px;
     }
 
-    .restaurants h2 {
+    #restaurants h2 {
         margin: 0 5% 0 5%;
         padding: 50px 0 20px 0;
     }
@@ -451,7 +451,7 @@
         padding: 20px 0 20px 0;
     }
 
-    .localisation div {
+    #localisation div {
         display: flex;
         background-color: #dfdfdf;
         align-items: baseline;
@@ -460,12 +460,12 @@
         box-shadow: inset 0 3px 3px 0 rgb(180, 179, 179);
     }
 
-    .localisation div i {
+    #localisation div i {
         margin-right: 3%;
         font-size: 20px;
     }
 
-    .localisation div p {
+    #localisation div p {
         font-weight: 900;
         font-size: 25px;
         margin: 10px 0 10px 0;
@@ -516,7 +516,7 @@
 
     /* SECTION FONCTIONNEMENT */
 
-    .fonctionnement {
+    #fonctionnement {
         margin: 20px 5% 0 5%;
         height: 250px;
         display: flex;
@@ -525,7 +525,7 @@
         align-content: center;
     }
 
-    .fonctionnement h2 {
+    #fonctionnement h2 {
         width: 100%;
         height: 30px;
         font-size: 25px;
@@ -573,7 +573,7 @@
         font-size: large;
     }
 
-    .fonctionnement p {
+    #fonctionnement p {
         padding: 5px 10px 5px 10px;
         background-color: #9356DC;
         color: white;
@@ -584,7 +584,7 @@
 
     /* SECTION RESTAURANTS */
 
-    .restaurants {
+    #restaurants {
         height: 800px;
         background-color: #f0f0f0;
         margin-top: 50px;
@@ -593,7 +593,7 @@
         justify-content: space-evenly;
     }
 
-    .restaurants h2 {
+    #restaurants h2 {
         margin: 0 5% 0 5%;
         padding: 50px 0 20px 0;
         width: 100%;
@@ -601,7 +601,7 @@
         font-size: 25px;
     }
 
-    .restaurants a {
+    #restaurants a {
         width: 50%;
         margin: 0;
         text-decoration: none;
@@ -924,7 +924,7 @@
         padding: 20px 0 20px 0;
     }
 
-    .localisation div {
+    #localisation div {
         display: flex;
         background-color: #dfdfdf;
         align-items: baseline;
@@ -933,12 +933,12 @@
         box-shadow: inset 0 3px 3px 0 rgb(180, 179, 179);
     }
 
-    .localisation div i {
+    #localisation div i {
         margin-right: 3%;
         font-size: 20px;
     }
 
-    .localisation div p {
+    #localisation div p {
         font-weight: 900;
         font-size: 25px;
         margin: 10px 0 10px 0;
@@ -989,7 +989,7 @@
 
     /* SECTION FONCTIONNEMENT */
 
-    .fonctionnement {
+    #fonctionnement {
         margin: 0 5% 0 5%;
         height: 200px;
         display: flex;
@@ -997,7 +997,7 @@
         justify-content: space-evenly;
     }
 
-    .fonctionnement h2 {
+    #fonctionnement h2 {
         width: 100%;
         height: 20px;
         font-size: 25px;
@@ -1044,7 +1044,7 @@
         font-size: large;
     }
 
-    .fonctionnement p {
+    #fonctionnement p {
         padding: 5px 10px 5px 10px;
         background-color: #9356DC;
         color: white;
@@ -1055,7 +1055,7 @@
 
     /* SECTION RESTAURANTS */
 
-    .restaurants {
+    #restaurants {
         height: 800px;
         background-color: #f0f0f0;
         margin-top: 50px;
@@ -1064,7 +1064,7 @@
         justify-content: space-evenly;
     }
 
-    .restaurants h2 {
+    #restaurants h2 {
         margin: 0 5% 0 5%;
         padding: 50px 0 20px 0;
         width: 100%;
@@ -1072,7 +1072,7 @@
         font-size: 25px;
     }
 
-    .restaurants a {
+    #restaurants a {
         width: 40%;
         margin: 0;
         text-decoration: none;
