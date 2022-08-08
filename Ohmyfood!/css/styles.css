@@ -354,6 +354,10 @@
         right: 18%;
     }
 
+    .img_restaurant {
+        height: 250px;
+    }
+
     .menu {
         height: 1000px;
         border-top-left-radius: 40px;
