@@ -344,6 +344,15 @@
 
     /* PAGES RESTAURANTS */
     
+    body a {
+        color: black;
+    }
+
+    header a {
+        position: relative;
+        right: 18%;
+    }
+
     .menu {
         height: 1000px;
         border-top-left-radius: 40px;
@@ -1252,7 +1261,7 @@
         right: 20%;
         bottom: 20px;
     }
-    
+
     header {
         display: flex;
         justify-content: center;
