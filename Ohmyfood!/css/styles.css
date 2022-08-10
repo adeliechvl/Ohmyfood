@@ -84,17 +84,17 @@
     }
 
     .réserver a {
-            width: 75%;
-        }
+        width: 75%;
+    }
 
     .titres_réserver {
         text-align: center;
         margin-bottom: 15px;
     }
-    
+
     .titres_réserver h1 {
         font-size: 25px;
-        
+
     }
 
     .btn_explore {
@@ -172,7 +172,7 @@
     /* SECTION RESTAURANTS */
 
     #restaurants {
-        height: 1230px;
+        height: 1300px;
         background-color: #f0f0f0;
         margin-top: 50px;
     }
@@ -249,24 +249,34 @@
         font-weight: 300;
     }
 
-    .icon_restaurant {
-        display: flex;
-        justify-content: space-between;
-        width: 70px;
-    }
-
-    div>.fa-regular.fa-heart,
-    .fa-solid.fa-heart {
+    .icon_coeur_accueil {
+        position: relative;
+        bottom: 70px;
+        right: 30px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+    }
+    
+    .icon_coeur_pages {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
+    input {
+        position: relative;
+        left: 25px;
+        opacity: 0;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        z-index: 3;
     }
 
     .fa-regular.fa-heart {
         font-size: 25px;
         color: rgb(139, 139, 139);
-        margin: 5px;
     }
 
     .fa-solid.fa-heart {
@@ -276,16 +286,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         position: relative;
-        right: 30px;
-    }
-
-    input {
-        position: relative;
-        left: 20px;
-        width: 25px;
-        opacity: 0;
-        cursor: pointer;
-        z-index: 3;
+        right: 25px;
     }
 
     input:checked~.fa-regular.fa-heart {
@@ -344,11 +345,11 @@
     }
 
     /* PAGES RESTAURANTS */
-    
+
     body a {
         color: black;
     }
-    
+
     header a {
         position: relative;
         right: 18%;
@@ -529,7 +530,7 @@
     .btn_explore {
         border-radius: 50px;
         background-image: linear-gradient(#FF79DA, #9356DC);
-        padding: 5px 10% 5px 10% ;
+        padding: 5px 10% 5px 10%;
         margin-bottom: 10px;
         color: white;
         font-weight: 100;
@@ -772,8 +773,8 @@
     header img {
         margin-top: 20px;
         margin-bottom: 10px;
-        width: 45%; 
-        
+        width: 45%;
+
     }
 
     header a {
@@ -1255,8 +1256,8 @@
     header img {
         margin-top: 20px;
         margin-bottom: 10px;
-        width: 45%; 
-        
+        width: 45%;
+
     }
 
     header a {
