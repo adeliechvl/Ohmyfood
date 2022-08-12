@@ -1,6 +1,6 @@
 /* VERSION MOBILE*/
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
 
     /* ELEMENTS DE LA PAGE */
 
@@ -463,7 +463,7 @@
 
 /* VERSION TABLETTE */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
 
     body {
         margin: 0;
@@ -633,7 +633,7 @@
 
     #restaurants a {
         width: 45%;
-        margin: 0;
+        margin: 0 0 0 2%;
         text-decoration: none;
     }
 
@@ -709,23 +709,36 @@
         font-size: 18px;
     }
 
-    .icon_restaurant {
-        display: flex;
-        justify-content: space-between;
-        width: 70px;
-    }
-
-    div>.fa-regular.fa-heart,
-    .fa-solid.fa-heart {
+    .icon_coeur_accueil {
+        width: 2px;
+        height: 25px;
+        position: relative;
+        top: 230px;
+        right: 1%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+    }
+    
+    .icon_coeur_pages {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    input {
+        position: relative;
+        left: 20px;
+        opacity: 0;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        z-index: 3;
     }
 
     .fa-regular.fa-heart {
         font-size: 25px;
         color: rgb(139, 139, 139);
-        margin: 5px;
     }
 
     .fa-solid.fa-heart {
@@ -735,16 +748,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         position: relative;
-        right: 30px;
-    }
-
-    input {
-        position: relative;
-        left: 20px;
-        width: 25px;
-        opacity: 0;
-        cursor: pointer;
-        z-index: 3;
+        right: 25px;
     }
 
     input:checked~.fa-regular.fa-heart {
@@ -948,7 +952,7 @@
 
 /* VERSION DESKTOP */
 
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) {
 
     body {
         margin: 0;
@@ -1192,23 +1196,36 @@
         font-size: 20px;
     }
 
-    .icon_restaurant {
-        display: flex;
-        justify-content: space-between;
-        width: 70px;
-    }
-
-    div>.fa-regular.fa-heart,
-    .fa-solid.fa-heart {
+    .icon_coeur_accueil {
+        width: 2px;
+        height: 25px;
+        position: relative;
+        top: 230px;
+        right: 5%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+    }
+    
+    .icon_coeur_pages {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    input {
+        position: relative;
+        left: 20px;
+        opacity: 0;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        z-index: 3;
     }
 
     .fa-regular.fa-heart {
         font-size: 25px;
         color: rgb(139, 139, 139);
-        margin: 5px;
     }
 
     .fa-solid.fa-heart {
@@ -1218,16 +1235,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         position: relative;
-        right: 30px;
-    }
-
-    input {
-        position: relative;
-        left: 20px;
-        width: 25px;
-        opacity: 0;
-        cursor: pointer;
-        z-index: 3;
+        right: 25px;
     }
 
     input:checked~.fa-regular.fa-heart {
