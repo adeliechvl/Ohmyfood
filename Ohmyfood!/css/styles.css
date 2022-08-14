@@ -453,7 +453,7 @@
         box-shadow: 0 2px 15px 2px rgb(180, 179, 179);
     }
 
-    .btn_commander p {
+    .btn_commander h3 {
         margin-top: 15px;
         margin-bottom: 15px;
         font-weight: 300;
@@ -898,7 +898,7 @@
         box-shadow: 0 2px 15px 2px rgb(180, 179, 179);
     }
 
-    .btn_commander p {
+    .btn_commander h3 {
         margin-top: 15px;
         margin-bottom: 15px;
         font-weight: 300;
