@@ -355,7 +355,7 @@
         right: 18%;
     }
 
-    .img_restaurant {
+    .img_restaurant img {
         height: 250px;
     }
 
@@ -789,7 +789,7 @@
         top: 8px;
     }
 
-    .img_restaurant div img {
+    .img_restaurant img {
         width: 100%;
         height: 350px;
         object-fit: cover;
@@ -1296,7 +1296,7 @@
         top: 20px;
     }
 
-    .img_restaurant div img {
+    .img_restaurant img{
         width: 100%;
         height: 450px;
         object-fit: cover;
