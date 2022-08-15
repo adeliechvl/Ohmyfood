@@ -605,6 +605,7 @@
     }
 
     .btn_explore {
+        width: 200px;
         border-radius: 50px;
         background-image: linear-gradient(#FF79DA, #9356DC);
         padding: 5px 10% 5px 10%;
@@ -1148,7 +1149,7 @@
     /* SECTION FONCTIONNEMENT */
 
     #fonctionnement {
-        margin: 0 5% 0 5%;
+        margin: 0 2% 0 2%;
         height: 200px;
         display: flex;
         flex-wrap: wrap;
