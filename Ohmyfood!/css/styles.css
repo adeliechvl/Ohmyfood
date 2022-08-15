@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
 /* LOADING SPINNER */
 
 .loading {
@@ -1112,7 +1115,7 @@
     }
 
     .réserver a {
-        width: 240px;
+        width: 250px;
         display: flex;
         justify-content: center;
     }
