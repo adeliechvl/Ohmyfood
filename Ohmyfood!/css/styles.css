@@ -1113,6 +1113,8 @@
 
     .réserver a {
         width: 240px;
+        display: flex;
+        justify-content: center;
     }
 
     .titres_réserver {
